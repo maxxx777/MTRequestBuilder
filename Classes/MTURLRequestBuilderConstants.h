@@ -4,6 +4,8 @@
 //  Created by MAXIM TSVETKOV on 28.08.15.
 //
 
+#import <Foundation/Foundation.h>
+
 static NSString * const MTURLRequestBuilderURLSchemeHTTP = @"http";
 static NSString * const MTURLRequestBuilderURLSchemeHTTPS = @"https";
 

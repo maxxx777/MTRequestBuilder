@@ -60,8 +60,8 @@
         }
         [request setHTTPBody:httpBody];
         
-        NSString* jsonStr = [[NSString alloc] initWithData:request.HTTPBody encoding:NSUTF8StringEncoding];
-        DLog(@"json str: %@", jsonStr);
+//        NSString* jsonStr = [[NSString alloc] initWithData:request.HTTPBody encoding:NSUTF8StringEncoding];
+//        DLog(@"json str: %@", jsonStr);
     }
     
     return request;
